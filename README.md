@@ -2,32 +2,15 @@
 
 <h2 align="center">About me</h2>
 
-```golang
-package main
 
-import (
-	"fmt"
-)
 
-type Bio map[string]string
 
-func main() {
-	for k, v := range GetBio() {
-		fmt.Printf("%+v: %+v\n", k, v)
-	}
-}
-
-func GetBio() Bio {
-	return Bio{
 		"- ⚡ Quick bio:":                    "Test engineer",
 		"- 🌱 I’m currently learning":        "Rest Assured --- Sharpening my Skills (Personal goal)",
 		"- 👯 I’m looking to collaborate on": "Java and Selenium related projects",
 		"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
 		"- 💬 Ask me about":                  "Java, Selenium,Testng,Postman,Cucumber",
 		"- 📫 How to reach me:":              "https://github.com/UK0070#you-can-reach-me-at-alien",
-	}
-}
-```
 
 
  
